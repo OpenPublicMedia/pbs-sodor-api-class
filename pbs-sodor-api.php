@@ -145,7 +145,7 @@ class PBSSodorAPI
 			$this->userZipCode = $this->objZipCode->{'$items'}[0]->zipcode;
 			$this->zipToStationURL = $this->objZipCode->{'$items'}[0]->{'$links'}[0]->{'$self'};
 		}
-		$this->userZipCode = 94598;
+//		$this->userZipCode = 94598;
 		return $this->userZipCode;
 	}
 
